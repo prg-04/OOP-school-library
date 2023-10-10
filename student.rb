@@ -1,9 +1,9 @@
 require_relative 'person'
 
 class Student < Person
-  def initialize(name, age, classroom)
+  def initialize(age, classroom, name = 'Unknown', parent_permission: true)
     @classroom = classroom
-    super(name, age)
+    super(name, age, parent_permission: parent_permission)
   end
 
   def play_hook
