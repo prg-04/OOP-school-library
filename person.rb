@@ -1,4 +1,6 @@
-class Person
+require "./nameable.rb"
+
+class Person < Nameable
   attr_accessor :name, :age, :id
 
   def initialize(age, name = 'Unknown', parent_permission: true)
@@ -10,6 +12,10 @@ class Person
 
   def can_use_services?
     @parent_permission || of_age?(@age)
+  end
+
+  def correct_name
+    @name
   end
 
   private
