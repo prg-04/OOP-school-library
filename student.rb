@@ -11,4 +11,9 @@ class Student < Person
   def play_hook
     '¯\(ツ)/¯'
   end
+
+  def join_classroom(classroom)
+    @classroom = classroom
+    classroom.add_student(self)
+  end
 end
