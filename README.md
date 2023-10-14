@@ -93,7 +93,7 @@ To run the project, create a `main.rb` file and instantiate the class files in `
 
 - GitHub: [@githubhandle](https://github.com/prg-04)
 - Twitter: [@twitterhandle](https://twitter.com/Evans1425Sean)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/evanson-karanja-3549841b8/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/evanson-karanja/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 - [ ]  Optimize the performance of the system.🚀
