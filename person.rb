@@ -27,7 +27,6 @@ class Person < Nameable
     rental
   end
 
-
   private
 
   def of_age?
