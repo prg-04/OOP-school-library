@@ -79,4 +79,3 @@ class App
     end.join("\n")
   end
 end
-

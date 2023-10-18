@@ -1,7 +1,8 @@
 class TeacherCreator
-    def initialize(people)
+  def initialize(people)
     @people = people
   end
+
   def create_teacher
     print "Enter the teacher's age: "
     age = gets.chomp.to_i
