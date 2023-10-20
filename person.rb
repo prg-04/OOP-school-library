@@ -22,7 +22,7 @@ class Person < Nameable
   end
 
   def add_rental(date, book)
-    rental = Rental.new(date, self, book)
+    rental = Rental.new(date,book)
     @rentals << rental
     rental
   end
@@ -32,4 +32,24 @@ class Person < Nameable
   def of_age?
     @age.to_i >= 18
   end
+  def write_person_to_json(data)
+  if File.exist?('people.json')
+    existing_data = File.read('people.json')
+    people_data = JSON.parse(existing_data)
+  else
+    people_data = []
+  end
+
+  people_data << data
+
+  begin
+    File.open('people.json', 'w') do |file|
+      file.puts JSON.pretty_generate(people_data)
+    end
+    puts 'Data written to people.json successfully.'
+  rescue StandardError => e
+    puts "An error occurred: #{e.message}"
+  end
+end
+
 end

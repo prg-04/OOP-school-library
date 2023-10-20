@@ -17,7 +17,11 @@ class RentalCreator
 
     date = input_rental_date
     puts "Date: #{date}, Book: #{book.title}"
-    person.add_rental(date, book)
+
+    # Create a new rental
+    rental = Rental.new(date, person, book)
+    rental.write_to_json  # Write rental data to JSON file
+
     puts 'Rental created successfully!'
   end
 

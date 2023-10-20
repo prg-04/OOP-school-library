@@ -1,0 +1,21 @@
+[
+  {
+    "person": "student",
+    "name": "June",
+    "age": 23,
+    "parent_permission": false
+  },
+  {
+    "person": "teacher",
+    "name": "Bernice",
+    "age": 34,
+    "specialization": "English",
+    "parent_permission": true
+  },
+  {
+    "person": "student",
+    "name": "Mary",
+    "age": 26,
+    "parent_permission": true
+  }
+]

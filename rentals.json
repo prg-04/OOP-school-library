@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2000-01-01",
+    "person": {
+      "person": "teacher",
+      "name": "Bernice",
+      "age": 34,
+      "specialization": "English",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Atomic Bazaar",
+      "author": "William",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2023-10-10",
+    "person": {
+      "person": "student",
+      "name": "Mary",
+      "age": 26,
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Atomic Anna",
+      "author": "Ray Weldon",
+      "rentals": [
+
+      ]
+    }
+  }
+]
