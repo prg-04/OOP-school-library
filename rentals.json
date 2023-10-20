@@ -1,0 +1,234 @@
+[
+  {
+    "date": "2002-01-10",
+    "person": {
+      "person": "teacher",
+      "name": "John",
+      "age": 34,
+      "specialization": "English",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Happy Potter",
+      "author": "J.K Rowlings",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2001-01-20",
+    "person": {
+      "person": "student",
+      "name": "Jane",
+      "age": 43,
+      "parent_permission": false
+    },
+    "book": {
+      "title": "Atomic Bazaar",
+      "author": "William",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2001-01-19",
+    "person": {
+      "person": "student",
+      "name": "Ken",
+      "age": 23,
+      "parent_permission": false
+    },
+    "book": {
+      "title": "Atomic Anna",
+      "author": "Ray Weldon",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2001-01-01",
+    "person": {
+      "person": "student",
+      "name": "June",
+      "age": 23,
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Happy Potter",
+      "author": "J.K Rowlings",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2010-01-01",
+    "person": {
+      "person": "teacher",
+      "name": "John",
+      "age": 34,
+      "specialization": "English",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Happy Potter",
+      "author": "J.K Rowlings",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2010-12-20",
+    "person": {
+      "person": "teacher",
+      "name": "Kanina",
+      "age": 45,
+      "specialization": "Sanaa",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Atoms and Ashes",
+      "author": "Serhii Plokhy",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2010-02-01",
+    "person": {
+      "person": "student",
+      "name": "Frank",
+      "age": 32,
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Atoms and Ashes",
+      "author": "Serhii Plokhy",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2020-10-01",
+    "person": {
+      "person": "teacher",
+      "name": "King",
+      "age": 53,
+      "specialization": "Tennis",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Happy Potter",
+      "author": "J.K Rowlings",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2020-01-01",
+    "person": {
+      "person": "student",
+      "name": "Giga",
+      "age": 34,
+      "parent_permission": false
+    },
+    "book": {
+      "title": "English Aid",
+      "author": "sheba",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "7",
+    "person": {
+      "person": "teacher",
+      "name": "John",
+      "age": 34,
+      "specialization": "English",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "English Aid",
+      "author": "sheba",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "person": {
+      "person": "student",
+      "name": "Giga",
+      "age": 34,
+      "parent_permission": false
+    },
+    "book": {
+      "title": "Vikings",
+      "author": "ragnar",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2012-02-10",
+    "person": {
+      "person": "teacher",
+      "name": "Kanina",
+      "age": 45,
+      "specialization": "Sanaa",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Vikings",
+      "author": "ragnar",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2021-12-10",
+    "person": {
+      "person": "teacher",
+      "name": "Kanina",
+      "age": 45,
+      "specialization": "Sanaa",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Kiswahili Kitukuzwe",
+      "author": "wahenga",
+      "rentals": [
+
+      ]
+    }
+  },
+  {
+    "date": "2020-10-10",
+    "person": {
+      "person": "teacher",
+      "name": "Kanina",
+      "age": 45,
+      "specialization": "Sanaa",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Atoms and Ashes",
+      "author": "Serhii Plokhy",
+      "rentals": [
+
+      ]
+    }
+  }
+]

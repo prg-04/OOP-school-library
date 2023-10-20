@@ -14,5 +14,6 @@ class StudentCreator
     student = Student.new(name: name, age: age, parent_permission: parent_permission)
     @people << student
     puts "Student created successfully! (ID: #{student.id})"
+    student.write_to_json
   end
 end

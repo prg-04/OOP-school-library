@@ -13,5 +13,7 @@ class BookCreator
     @books << book
 
     puts 'Book created successfully!'
+
+    book.write_to_json
   end
 end

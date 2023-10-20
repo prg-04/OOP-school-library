@@ -40,6 +40,7 @@ def list_books_option(app)
 end
 
 def list_people_option(app)
+  # app.loaded_people
   app.list_people
 end
 

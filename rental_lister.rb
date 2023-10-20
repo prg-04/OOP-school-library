@@ -1,6 +1,7 @@
 class RentalLister
-  def initialize(people)
+  def initialize(people, rentals)
     @people = people
+    @rentals = rentals
   end
 
   def list_rentals_for_person
@@ -9,14 +10,18 @@ class RentalLister
       return
     end
 
-    person = select_person_to_list_rentals
-    return unless person
+    selected_person = select_person_to_list_rentals
+    return unless selected_person
 
-    if person.rentals.empty?
-      puts "No rentals found for #{person.class.name}: #{person.name} (ID: #{person.id})."
+    person_name = selected_person.name
+
+    person_rentals = @rentals.select { |rental| rental.person.name == person_name }
+
+    if person_rentals.empty?
+      puts "No rentals found for #{person_name}."
     else
-      puts "\nRentals for #{person.class.name}: #{person.name} (ID: #{person.id})"
-      list_person_rentals(person)
+      puts "\nRentals for #{person_name}:"
+      list_rentals(person_rentals)
     end
   end
 
@@ -48,9 +53,9 @@ class RentalLister
     end.join("\n")
   end
 
-  def list_person_rentals(person)
-    person.rentals.each_with_index do |rental, index|
-      puts "#{index + 1}. #{rental.book.title}, rented on #{rental.date}"
+  def list_rentals(rentals)
+    rentals.each do |rental|
+      puts "Date: #{rental.date}, Book: #{rental.book.title}"
     end
   end
 end
