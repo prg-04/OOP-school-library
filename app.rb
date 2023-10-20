@@ -187,13 +187,13 @@ class App
       end
 
       if data['person'] == 'student'
-        return Student.new(
+        Student.new(
           name: data['name'],
           age: data['age'],
           parent_permission: data['parent_permission']
         )
       elsif data['person'] == 'teacher'
-        return Teacher.new(
+        Teacher.new(
           name: data['name'],
           age: data['age'],
           specialization: data['specialization'],
@@ -202,7 +202,7 @@ class App
       else
         # Handle other types of people as needed
         # For now, return a generic Person
-        return Person.new(
+        Person.new(
           name: data['name'],
           age: data['age'],
           parent_permission: data['parent_permission']
@@ -210,11 +210,9 @@ class App
       end
     else
       puts "Error: Invalid data format for person: #{data}"
-      return nil
+      nil
     end
   end
-
-  private
 
   def load_books_data
     if File.exist?('books.json')

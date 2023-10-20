@@ -12,7 +12,7 @@ class Teacher < Person
       'name' => @name,
       'age' => @age,
       'specialization' => @specialization,
-      'parent_permission' => @parent_permission,
+      'parent_permission' => @parent_permission
     }
   end
 
