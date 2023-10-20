@@ -95,6 +95,13 @@ To run the project, create a `main.rb` file and instantiate the class files in `
 - Twitter: [@twitterhandle](https://twitter.com/Evans1425Sean)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/evanson-karanja/)
 
+👤 **Author1**
+Ikechukwu
+
+- GitHub: [@boniface193](https://github.com/boniface193)
+- Twitter: [@bidtechnologies](https://twitter.com/bidtechnologies)
+- LinkedIn: [boniface-ikechukwu](https://www.linkedin.com/in/boniface-ikechukwu/)
+
 ## 🔭 Future Features <a name="future-features"></a>
 - [ ]  Optimize the performance of the system.🚀
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

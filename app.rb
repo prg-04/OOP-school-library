@@ -200,8 +200,6 @@ class App
           parent_permission: data['parent_permission']
         )
       else
-        # Handle other types of people as needed
-        # For now, return a generic Person
         Person.new(
           name: data['name'],
           age: data['age'],
