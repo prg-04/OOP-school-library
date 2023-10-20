@@ -9,6 +9,7 @@ class Rental
     @person = person
     @book = book
   end
+
   def to_hash
     {
       'date' => @date,
@@ -16,6 +17,7 @@ class Rental
       'book' => @book.to_hash
     }
   end
+
   def write_to_json
     write_to_json_file(to_hash, 'rentals.json')
   end

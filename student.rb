@@ -2,7 +2,7 @@ require_relative 'person'
 require_relative 'file_handler'
 
 class Student < Person
-   include JsonFileHandler
+  include JsonFileHandler
   def initialize(age:, name: 'Unknown', parent_permission: true)
     super(name: name, age: age, parent_permission: parent_permission)
     @classroom = []
@@ -26,7 +26,7 @@ class Student < Person
     }
   end
 
-   def write_to_json
+  def write_to_json
     write_person_to_json(to_hash)
   end
 

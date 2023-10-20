@@ -1,21 +1,66 @@
 [
   {
-    "person": "student",
-    "name": "June",
-    "age": 23,
-    "parent_permission": false
-  },
-  {
     "person": "teacher",
-    "name": "Bernice",
+    "name": "John",
     "age": 34,
     "specialization": "English",
     "parent_permission": true
   },
   {
     "person": "student",
-    "name": "Mary",
-    "age": 26,
+    "name": "June",
+    "age": 23,
+    "parent_permission": true
+  },
+  {
+    "person": "student",
+    "name": "Ken",
+    "age": 23,
+    "parent_permission": false
+  },
+  {
+    "person": "student",
+    "name": "Jane",
+    "age": 43,
+    "parent_permission": false
+  },
+  {
+    "person": "teacher",
+    "name": "King",
+    "age": 53,
+    "specialization": "Tennis",
+    "parent_permission": true
+  },
+  {
+    "person": "student",
+    "name": "Frank",
+    "age": 32,
+    "parent_permission": true
+  },
+  {
+    "person": "teacher",
+    "name": "Kanina",
+    "age": 45,
+    "specialization": "Sanaa",
+    "parent_permission": true
+  },
+  {
+    "person": "student",
+    "name": "Giga",
+    "age": 34,
+    "parent_permission": false
+  },
+  {
+    "person": "student",
+    "name": "James",
+    "age": 23,
+    "parent_permission": false
+  },
+  {
+    "person": "teacher",
+    "name": "Diana",
+    "age": 32,
+    "specialization": "Martial arts",
     "parent_permission": true
   }
 ]

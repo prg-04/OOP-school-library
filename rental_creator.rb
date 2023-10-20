@@ -1,7 +1,8 @@
 class RentalCreator
-  def initialize(people, books)
+  def initialize(people, books, rentals)
     @people = people
     @books = books
+    @rentals = rentals
   end
 
   def create_rental
@@ -20,7 +21,8 @@ class RentalCreator
 
     # Create a new rental
     rental = Rental.new(date, person, book)
-    rental.write_to_json  # Write rental data to JSON file
+    @rentals << rental
+    rental.write_to_json
 
     puts 'Rental created successfully!'
   end
