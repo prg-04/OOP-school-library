@@ -213,5 +213,22 @@
 
       ]
     }
+  },
+  {
+    "date": "2020-10-10",
+    "person": {
+      "person": "teacher",
+      "name": "Kanina",
+      "age": 45,
+      "specialization": "Sanaa",
+      "parent_permission": true
+    },
+    "book": {
+      "title": "Atoms and Ashes",
+      "author": "Serhii Plokhy",
+      "rentals": [
+
+      ]
+    }
   }
 ]

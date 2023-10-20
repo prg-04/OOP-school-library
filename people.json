@@ -62,5 +62,18 @@
     "age": 32,
     "specialization": "Martial arts",
     "parent_permission": true
+  },
+  {
+    "person": "student",
+    "name": "regg",
+    "age": 34,
+    "parent_permission": true
+  },
+  {
+    "person": "teacher",
+    "name": "gerge",
+    "age": 43,
+    "specialization": "gergg",
+    "parent_permission": true
   }
 ]
