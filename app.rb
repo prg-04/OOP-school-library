@@ -146,8 +146,8 @@ class App
     end.join("\n")
   end
 
-#  add code here
-def load_people_data if File.exist?('people.json')
+  def load_people_data
+    if File.exist?('people.json')
       begin
         existing_data = File.read('people.json')
         @people = JSON.parse(existing_data).map { |data| create_person_from_data(data) }
@@ -159,12 +159,14 @@ def load_people_data if File.exist?('people.json')
       @people = []
     end
   end
+
   def display_people
     puts "\nList of People:"
     @people.each_with_index do |person, index|
       puts "#{index}. [#{person.class.name}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
     end
   end
+
   def display_loaded_people
     puts "\nList of People:"
     @people.each_with_index do |person_data, index|
@@ -176,6 +178,7 @@ def load_people_data if File.exist?('people.json')
       end
     end
   end
+
   def create_person_from_data(data)
     if data.is_a?(Hash)
       if data['name'].nil? || data['age'].nil?
@@ -207,6 +210,7 @@ def load_people_data if File.exist?('people.json')
       nil
     end
   end
+
   def load_books_data
     if File.exist?('books.json')
       existing_data = File.read('books.json')
@@ -215,9 +219,11 @@ def load_people_data if File.exist?('people.json')
       []
     end
   end
+
   def create_book_from_data(data)
     Book.new(data['title'], data['author'])
   end
+
   def load_rentals_data
     if File.exist?('rentals.json')
       existing_data = JSON.parse(File.read('rentals.json'))
